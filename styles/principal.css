@@ -1,0 +1,232 @@
+.conteudo__principal{
+    margin: 2rem 2rem 0 0;
+    max-width: 700px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background: var(--azul-escuro);
+    border-radius: 10px;
+  }
+
+.input-group img{
+    padding-left: 1rem;
+}
+  
+.input{
+    width: 400px;
+    padding: 1rem;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 6px 0 0 6px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+  
+.button--submit {
+    min-height: 50px;
+    padding: 1rem 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: var(--amarelo);
+    color: var(--azul-de-fundo);
+    font-size: 15px;
+    cursor: pointer;
+}
+  
+.conteudo__principal-container-base{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.notificacao{
+    background: var(--azul-escuro);
+    padding: .7rem;
+    border-radius: 50%;
+    position: relative;
+}
+
+.notificacao::after{
+    content: '';
+    background: orangered;
+    width: 12px;
+    height: 12px;
+    right: 10;
+    top: 0;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.conteudo__principal-texto{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 0;
+}
+
+.conteudo__principal-titulo{
+    color: var(--cor-do-titulo);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.conteudo__principal-subtitulo{
+    color: var(--cor-da-letra);
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: .5rem;
+}
+
+.conteudo__principal-destinos-texto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo__principal-texto-titulo{
+    color: var(--cor-do-titulo);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.conteudo__principal-destinos-span{
+    color: var(--amarelo);
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.conteudo__principal-destinos-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.conteudo__principal-destinos-card-container{
+    width: 242px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+.conteudo__principal-destinos-card{
+    background: var(--azul-escuro);
+    padding: .7rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.conteudo__principal-destinos-card img{
+    width: 100%;
+}
+
+.conteudo__principal-destinos-card h3{
+    margin: .6rem 0;
+    color: var(--cor-do-titulo);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.conteudo__principal-destinos-card-subtexto{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    background-color: var(--azul-escuro);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    transition: all 0.4s ease;
+    color: var(--cor-da-letra);
+    border-top: 1px dashed var(--cor-da-letra);
+    cursor: pointer;
+}
+
+.conteudo__principal-destinos-card-subtexto p{
+    font-size: 15px;
+    color: var(--cor-da-letra);
+}
+
+.conteudo__principal-destinos-card-subtexto span{
+    color: var(--cor-do-titulo);
+}
+
+.conteudo__principal-destinos-card-subtexto:hover p,
+.conteudo__principal-destinos-card-subtexto:hover span {
+    color: var(--azul-de-fundo);
+}
+
+.conteudo__principal-destinos-card-subtexto:hover{
+    background-color: var(--amarelo);
+    border-top: none;
+}
+
+.conteudo__principal-ofertas-texto{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    margin: 3rem 0;
+}
+
+.conteudo__principal-ofertas-texto h3{
+    color: var(--cor-da-letra);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.conteudo__principal-ofertas-texto h3:hover{
+    color: var(--cor-do-titulo);
+}
+
+.conteudo__principal-ofertas-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.conteudo__principal-ofertas-card-container{
+    background-color: var(--azul-escuro);
+    display: flex;
+    padding: .5em;
+    gap: 1em;
+    width: 305px;
+    display: flex;
+    border-radius: 24px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+    transition: all 0.3s ease;
+}
+
+.conteudo__principal-ofertas-card-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+}
+
+.conteudo__principal-ofertas-card-local{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
+
+.conteudo__principal-ofertas-card-valor{
+    display: flex;
+}
+
+.conteudo__principal-ofertas-card-titulo h4{
+    color: var(--cor-do-titulo);
+}
+
+.conteudo__principal-ofertas-card-local p{
+    color: var(--cor-da-letra);
+}
+
+.conteudo__principal-ofertas-card-valor span{
+    color: var(--amarelo);
+    margin-right: .4em;
+}
+
+.conteudo__principal-ofertas-card-valor p{
+    color: var(--cor-da-letra);
+}

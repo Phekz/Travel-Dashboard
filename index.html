@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Dashboard</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <aside class="navegacao">
+        <img class="navegacao__logo" src="imagens/logo.png" alt="Logo">
+        <div class="navegacao__container">
+           <ul class="navegacao__container-lista">
+                <li class="navegacao__container-lista-item">
+                    <box-icon class="navegacao__container-lista-imagem" type='solid' name='dashboard'></box-icon>
+                    <a href="#">Dashboard</a>
+                </li>
+                <li class="navegacao__container-lista-item">
+                    <img class="navegacao__container-lista-imagem" src="imagens/ticket_icon.svg" alt="">
+                    <a href="#">My Tickets</a>
+                </li>
+                <li class="navegacao__container-lista-item">
+                    <img class="navegacao__container-lista-imagem" src="imagens/favourite_icon.svg" alt="">
+                    <a href="#">Favourite</a>
+                </li>
+                <li class="navegacao__container-lista-item">
+                    <img class="navegacao__container-lista-imagem" src="imagens/email_icon.svg" alt="">
+                    <a href="#">Message</a>
+                </li>
+                <li class="navegacao__container-lista-item">
+                    <img class="navegacao__container-lista-imagem" src="imagens/wallet_icon.svg" alt="">
+                    <a href="#">Transaction</a>
+                </li>
+                <li class="navegacao__container-lista-item">
+                    <img class="navegacao__container-lista-imagem" src="imagens/settings_icon.svg" alt="">
+                    <a href="#">Settings</a>
+                </li>
+           </ul>
+        </div>
+        <img class="navegacao__imagem-desconto" src="imagens/discount_img.png" alt="Disconto">
+        <div class="navegacao__final">
+           <img class="navegacao__container-lista-imagem" src="imagens/logout_icon.svg" alt="Logout"><a href="#">Logout</a>
+        </div>
+    </aside>
+
+    <main class="conteudo__principal">
+        <div class="conteudo__principal-container">
+            <div class="conteudo__principal-container-base">
+                <div class="input-group">
+                    <img src="imagens/lupa_icon.svg" alt="Lupa">
+                    <input type="text" class="input" id="text" name="text" placeholder="Search for your favourite destination" autocomplete="off">
+                    <input class="button--submit" value="Search" type="submit">
+                </div>
+                <div class="notificacao">
+                    <img class="notificacao__img" src="imagens/bell_icon.svg" alt="Sino">
+                </div>
+            </div>
+            <div class="conteudo__principal-texto">
+                <h1 class="conteudo__principal-titulo">Hello Anni!</h1>
+                <p class="conteudo__principal-subtitulo">Welcome back and explore the world.</p>
+            </div>
+            <div class="conteudo__principal-destinos">
+                <div class="conteudo__principal-destinos-texto">
+                    <h2 class="conteudo__principal-texto-titulo">Easy Visa Destinatios</h2>
+                    <span class="conteudo__principal-destinos-span">View All</span>
+                </div>
+                <div class="conteudo__principal-destinos-cards">
+                    <div class="conteudo__principal-destinos-card-container">
+                        <div class="conteudo__principal-destinos-card">
+                            <img src="imagens/bali_img.png" alt="Bali">
+                            <h3>Bali</h3>
+                        </div>
+                        <div class="conteudo__principal-destinos-card-subtexto">
+                            <p>Starting at</p>
+                            <span>₹ 19,600</span>
+                        </div>
+                    </div>
+                    <div class="conteudo__principal-destinos-card-container">
+                        <div class="conteudo__principal-destinos-card">
+                            <img src="imagens/dubai_img.png" alt="Dubai">
+                            <h3>Dubai</h3>
+                        </div>
+                        <div class="conteudo__principal-destinos-card-subtexto">
+                            <p>Starting at</p>
+                            <span>₹ 21,700</span>
+                        </div>
+                    </div>
+                    <div class="conteudo__principal-destinos-card-container">
+                        <div class="conteudo__principal-destinos-card">
+                            <img src="imagens/maldives_img.png" alt="Maldives">
+                            <h3>Maldives</h3>
+                        </div>
+                        <div class="conteudo__principal-destinos-card-subtexto">
+                            <p>Starting at</p>
+                            <span>₹ 11,300</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="conteudo__principal-ofertas">
+            <div class="conteudo__principal-ofertas-texto">
+                <h3>Most Popular</h3>
+                <h3>Special Offers</h3>
+                <h3>Near Me</h3>
+            </div>
+            <div class="conteudo__principal-ofertas-cards">
+                <div class="conteudo__principal-ofertas-card-container">
+                    <div class="conteudo__principal-ofertas-card-img">
+                        <img src="imagens/kerala_img.png" alt="Kerala">
+                    </div>
+                    <div class="conteudo__principal-ofertas-card-texto">
+                        <div class="conteudo__principal-ofertas-card-titulo">
+                            <h4>Kerala</h4>
+                        </div>
+                        <div class="conteudo__principal-ofertas-card-local">
+                            <img src="imagens/location_icon.svg" alt="Local">
+                            <p>India</p>
+                        </div>
+                        <div class="conteudo__principal-ofertas-card-valor">
+                            <span>₹ 248</span>
+                            <p>/ day</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="conteudo__principal-ofertas-card-container">
+                    <div class="conteudo__principal-ofertas-card-img">
+                        <img src="imagens/sukhotai_img.png" alt="Sukhothai">
+                    </div>
+                    <div class="conteudo__principal-ofertas-card-texto">
+                        <div class="conteudo__principal-ofertas-card-titulo">
+                            <h4>Sukhothai Old City</h4>
+                        </div>
+                        <div class="conteudo__principal-ofertas-card-local">
+                            <img src="imagens/location_icon.svg" alt="Local">
+                            <p>Thailand</p>
+                        </div>
+                        <div class="conteudo__principal-ofertas-card-valor">
+                            <span>₹ 248</span>
+                            <p>/ day</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="conteudo__principal-ofertas-card-container">
+                    <div class="conteudo__principal-ofertas-card-img">
+                        <img src="imagens/eiffel_img.png" alt="Eiffel">
+                    </div>
+                    <div class="conteudo__principal-ofertas-card-texto">
+                        <div class="conteudo__principal-ofertas-card-titulo">
+                            <h4>Eiffel Tower Tour</h4>
+                        </div>
+                        <div class="conteudo__principal-ofertas-card-local">
+                            <img src="imagens/location_icon.svg" alt="Local">
+                            <p>Paris</p>
+                        </div>
+                        <div class="conteudo__principal-ofertas-card-valor">
+                            <span>₹ 248</span>
+                            <p>/ day</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="conteudo__principal-ofertas-card-container">
+                    <div class="conteudo__principal-ofertas-card-img">
+                        <img src="imagens/kashmir_img.png" alt="Kashmir">
+                    </div>
+                    <div class="conteudo__principal-ofertas-card-texto">
+                        <div class="conteudo__principal-ofertas-card-titulo">
+                            <h4>Kashmir</h4>
+                        </div>
+                        <div class="conteudo__principal-ofertas-card-local">
+                            <img src="imagens/location_icon.svg" alt="Local">
+                            <p>India</p>
+                        </div>
+                        <div class="conteudo__principal-ofertas-card-valor">
+                            <span>₹ 248</span>
+                            <p>/ day</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="user">
+        <div class="user__login">
+            <div class="user__login-img">
+                <img src="imagens/anni_img.png" alt="Anni">
+            </div>
+            <div class="user__login-nome">
+                <h5>Anni</h5>
+                <p>Traveler Pro</p>
+            </div>
+            <div class="user__login-more">
+                <img src="imagens/down arrow.svg" alt="Arrow">
+            </div>
+        </div>
+        <div class="wrapper">
+            <header>
+              <p class="current-date"></p>
+              <div class="icons">
+                <span id="prev" class="material-symbols-rounded"><</span>
+                <span id="next" class="material-symbols-rounded">></span>
+              </div>
+            </header>
+            <div class="calendar">
+              <ul class="weeks">
+                <li>Sun</li>
+                <li>Mon</li>
+                <li>Tue</li>
+                <li>Wed</li>
+                <li>Thu</li>
+                <li>Fri</li>
+                <li>Sat</li>
+              </ul>
+              <ul class="days"></ul>
+            </div>
+        </div>
+        <div class="bookings">
+            <div class="bookings__texto">
+                <h6>Bookings</h6>
+                <p>View All</p>
+            </div>
+            <span class="bookings__ano">2022</span>
+            <div class="bookings__cards">
+                <div class="conteudo__principal-ofertas-card-container">
+                    <div class="conteudo__principal-ofertas-card-img">
+                        <img src="imagens/goa_img.png" alt="Goa">
+                    </div>
+                    <div class="conteudo__principal-ofertas-card-texto">
+                        <div class="conteudo__principal-ofertas-card-titulo">
+                            <h4>Goa</h4>
+                        </div>
+                        <div class="conteudo__principal-ofertas-card-local">
+                            <img src="imagens/calendar_icon.svg" alt="calendar">
+                            <p>16 Apr - 20 Apr</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="conteudo__principal-ofertas-card-container">
+                    <div class="conteudo__principal-ofertas-card-img">
+                        <img src="imagens/shimla_img.png" alt="Shimla">
+                    </div>
+                    <div class="conteudo__principal-ofertas-card-texto">
+                        <div class="conteudo__principal-ofertas-card-titulo">
+                            <h4>Shimla</h4>
+                        </div>
+                        <div class="conteudo__principal-ofertas-card-local">
+                            <img src="imagens/calendar_icon.svg" alt="calendar">
+                            <p>16 Jan - 25 Jan</p>
+                        </div>
+                    </div>
+                </div>
+                <span class="bookings__ano">2021</span>
+                <div class="conteudo__principal-ofertas-card-container">
+                    <div class="conteudo__principal-ofertas-card-img">
+                        <img src="imagens/andaman_img.png" alt="Andaman">
+                    </div>
+                    <div class="conteudo__principal-ofertas-card-texto">
+                        <div class="conteudo__principal-ofertas-card-titulo">
+                            <h4>Andaman</h4>
+                        </div>
+                        <div class="conteudo__principal-ofertas-card-local">
+                            <img src="imagens/calendar_icon.svg" alt="calendar">
+                            <p>7 Nov - 20 Nov</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>

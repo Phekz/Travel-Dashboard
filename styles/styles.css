@@ -1,0 +1,22 @@
+@import url(aside.css);
+@import url(principal.css);
+@import url(user.css);
+
+:root{
+    /* Cores */
+    --amarelo: #D1F366;
+    --vermelho: #EC502C;
+    --azul-de-fundo: #141627;
+    --azul-escuro: #1C1F37;
+    --cinza: #D0D4E7;
+    --cinza-escuro: #626577;
+    --cor-da-letra: #5F647E;
+    --cor-do-titulo: #D7DBEE;
+    --fonte: "Poppins", serif;
+}
+
+body{
+    font-family: var(--fonte);
+    background-color: var(--azul-de-fundo);
+    display: flex;
+}
